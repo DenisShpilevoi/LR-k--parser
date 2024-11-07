@@ -9,16 +9,6 @@
 
 int main() {
 
-  Grammar G_rbs;
-
-  G_rbs.terminals = {'(', ')'};
-  G_rbs.nonterminals = {'S'};
-  G_rbs.start = 'S';
-  G_rbs.rules = {
-    {'S', {{{'(', false}, {'S', true}, {')', false}, {'S', true}}}},
-    {'S', {{}}}
-  };
-
   Grammar G;
   
   CFL_rule rule;
