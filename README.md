@@ -33,6 +33,7 @@
 
 Примеры:
 
+1)
 
 S->SaSb
 
@@ -46,6 +47,7 @@ aabb
 
 aaaaabaabbabaabaabbabbabaaabaabbaabbaabbabbaababbabbabbabbabbabaababbb
 
+2)
 
 S->C
 
